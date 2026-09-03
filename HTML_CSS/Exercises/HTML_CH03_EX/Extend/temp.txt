@@ -1,1 +1,49 @@
-This is just a place holder. You can ignore this file.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML Starter</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Website</h1>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Welcome</h2>
+        <p>This is the main content area of the page.</p>
+      </section>
+
+      <article>
+        <h3>Featured Article</h3>
+        <p>
+          Use the article element for a self-contained piece of content such as a news
+          story, blog post, or feature.
+        </p>
+      </article>
+
+      <aside>
+        <h3>Sidebar</h3>
+        <ul>
+          <li>Related link 1</li>
+          <li>Related link 2</li>
+          <li>Related link 3</li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Your Name</p>
+    </footer>
+  </body>
+</html>
