@@ -1,36 +1,68 @@
+<!--Student Name:Alexcia Franks
+File Name:analyze04.html
+Date: 9/3/2026-->
+
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 #css1, #css2, #css3 {
-    width: 40%;
+    width: 30%;
     float: left;
     padding: 0 1%;
 }
+/*Style rules for the footer element*/
 footer {
     text-align: center;
     font-size: 0.85em;
     color: #47476b;
     padding: 1% 0;
     border-top: 3px solid #47476b;
+    float: center;
 }
+/*Style rules for the body element*/
 body {
-    padding 2%;
+    padding: 2%;
     background-color: #d1d1e0;
-} 
+}
+/*Style rules for the main element*/
 main {
     padding: 2%;
     font-family: Geneva, Arial, sans-serif;
-} 
+    overflow: auto;
+    color: #47476b;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+/*Style rules for the header element*/ 
 header h1 {
     font-size: 3em;
     font-family: Georgia, Times, serif;
     padding: 3%;
     color: #47476b;
-} 
+    text-align: center;
+}
+/*Style rules for the nav element*/
 nav {
     background-color: #47476b;
-}nav ul { margin: 0;} nav li {
-    display: block;
-    font-size: 1.5em; font-family: Verdana, Arial, sans-serif; font-weight: bold;
+}
+nav ul {    
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none;
+    text-align: center;
 } 
-nav li a { display: block; color: #e3eaf8; padding: 0.5em 2em; 
+nav li {
+    display: inline-block;
+    font-size: 1.5em; 
+    font-family: Verdana, Arial, sans-serif; 
+    font-weight: bold;
+} 
+nav li a { display: inline-block; color: #e3eaf8; padding: 0.5em 2em; 
 }
 main p {
     font-size: 1.25em;
@@ -39,3 +71,4 @@ main h3 {
     padding-top: 2%;
     font-size: 2em;
 }
+
