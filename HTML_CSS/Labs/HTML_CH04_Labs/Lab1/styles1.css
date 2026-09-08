@@ -12,9 +12,15 @@ body, header, nav, main, footer, img, h1{
 }
 
 /*Style rule for images*/
-img{
+.image-row img{
+    width: 33.33%;
+    display: flex;
+    object-fit: cover;
+}
+
+.image-row{
     max-width: 100%;
-    display: block;
+    display: flex;
 }
 
 /*Style rules for header content*/
