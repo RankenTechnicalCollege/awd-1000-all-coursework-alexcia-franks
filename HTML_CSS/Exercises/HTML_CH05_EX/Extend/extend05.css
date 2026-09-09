@@ -22,13 +22,18 @@ body {
 }
 
 /* sticky */
-.sticky{
+.sticky-box{
     position: sticky;
     top: 0;
 }
 
 
 /* relative */
+.relative-box{
+    position: relative;
+    top: 90px;
+    left: 30px;
+}
 
 
 /* fixed */
