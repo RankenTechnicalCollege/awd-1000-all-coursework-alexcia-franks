@@ -46,8 +46,9 @@ nav{
 }
 
 nav ul{
-    list-style-type: none;
+    list-style-type: auto;
     text-align: center;
+    
 }
 
 nav li{
