@@ -13,15 +13,17 @@ body, header, nav, main, footer, img, h1, ul{
 }
 
 /*Style rule for images*/
-.image-row img{
-    width: 100%;
-    display: flex;
+.row img{
+    flex: 1;
+    height: 300px;
     object-fit: cover;
 }
 
 .row{
-    max-width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
 }
 .round{
     border-radius:12px;
@@ -63,7 +65,6 @@ header h3{
     font-weight: 400;
     font-style: normal;
 }
-
 
 /*Style rules for navigation area*/
 nav{
