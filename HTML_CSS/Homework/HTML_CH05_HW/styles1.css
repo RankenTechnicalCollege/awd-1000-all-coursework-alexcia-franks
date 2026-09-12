@@ -9,20 +9,23 @@ body, header, nav, main, footer, img, h1, ul{
     margin:0;
     padding: 0;
     border: 0;
+    font-style: italic;
 }
 
 /*Style rule for images*/
 .image-row img{
-    width: 33.33%;
+    width: 100%;
     display: flex;
     object-fit: cover;
 }
 
-.image-row{
+.row{
     max-width: 100%;
     display: flex;
 }
-
+.round{
+    border-radius:12px;
+}
 /*Style rule for mobile viewport*/
 
 
@@ -38,7 +41,7 @@ body, header, nav, main, footer, img, h1, ul{
 /*Style rules for header area*/
 header h1{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3.5em;
     
 }
 
@@ -60,13 +63,12 @@ header h3{
     font-weight: 400;
     font-style: normal;
 }
-.paw{
-    color: red;
-}
+
 
 /*Style rules for navigation area*/
 nav{
-    background-color:#4d3319;
+    background-color: rgb(255, 192, 203);
+
 }
 
 nav ul{
@@ -77,7 +79,7 @@ nav ul{
 
 nav li{
     display: block;
-    font-size: 2em;
+    font-size: 1.5em;
     border-top: 0.5px solid #f6eee4;
     list-style-type: none;
 }
@@ -90,8 +92,15 @@ nav li a{
     padding: 0.5em 1em;
     text-decoration: none;
 }
+nav a:hover{
+    background-color: #ddd;
+}
 
-
+.sticky{
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
 /*Style for main content*/
 main{
     padding: 2%;
@@ -148,7 +157,7 @@ main ul{
 }
 
 .tel-link{
-    background-color:#4d3319;
+    background-color: hotpink;
     padding: 2%;
     margin: 0 auto;
     width: 40%;
@@ -190,4 +199,13 @@ footer{
 footer a{
     color: #4645a8;
     text-decoration: none;
+}
+
+/* Desktop Navigation - Horizontal Layout */
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+        font-size: 1.5em;
+        border-top: none;
+    }
 }
