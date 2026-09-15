@@ -1,0 +1,229 @@
+/*
+Author: Alexcia Franks
+Date: 9/6/2026
+File Name: styles.css
+*/
+
+/* CSS Reset*/
+body, header, nav, main, footer, img, h1{ 
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+
+/*Style rule for images*/
+.image-row img{
+    width: 33.33%;
+    display: flex;
+    object-fit: cover;
+}
+
+.image-row{
+    max-width: 100%;
+    display: flex;
+}
+
+/*Style rules for header content*/
+header{
+    text-align: center;
+    font-size: 3em;
+    color: #373684;
+}
+
+header h1{
+    font-style: italic;
+}
+
+/*Style rules for navigation area*/
+nav{
+    background-color: #373684;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 2em;
+}
+
+nav li a{
+    display: block;
+    color:#ffff;
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+
+/*Style for main content*/
+main{
+    padding: 2%;
+    background-color: #e5e9fc;
+    overflow: auto;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main p{
+    font-size: 1.25em;
+}
+
+.action{
+    font-size: 1.75em;
+    color: #373684;
+    font-weight: bold;
+}
+
+#piano, #guitar, #violin{
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#info{
+    clear: left;
+    background-color: #c0caf7;
+    padding: 1% 2%;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact a{
+    color: #4645a8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map{
+    border: 5px solid #373684;
+    width: 600px;
+    height: 450px;
+}
+
+/*Style rules for footer content*/
+footer{
+    text-align: center;
+    font-size: 0.65em;
+    clear: left;
+}
+
+footer a{
+    color: #4645a8;
+    text-decoration: none;
+}
+
+/* Tablet viewport: Show tablet-desktop class, hide mobile class*/
+.tablet-desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+/* Media Query for Tablet viewport */
+@media screen and (min-width: 630px), print {
+
+}
+
+/* Tablet Viewport: Style rule for header */
+header{
+    position: static;
+    padding-bottom: 2%;
+}
+
+/* Tablet Viewport: Style rules for nav area */
+nav li{
+    border-top: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+}
+
+nav li:last-child{
+    border-right: none;
+}
+
+nav li a{
+    padding: 0.1em 0.75em;
+}
+
+/* Tablet Viewport: Style rules for the main content area */
+main ul{
+    margin: 0 0 4% 10%;
+}
+
+/* Media Query for Desktop Viewport */
+@media screen (min-width: 1015px), print {
+
+
+}
+
+/* Desktop Viewport: Style for header */
+header{
+    width: 25%;
+    float: left;
+    padding-bottom: 0;
+}
+
+/* Desktop Viewport: Style rules for nav area */
+nav{
+    float: right;
+    width: 70%;
+    margin: 4em 1em 0 0;
+}
+
+nav ul{
+    text-align: right;
+}
+
+nav li{
+    border: none;
+}
+
+nav li a{
+    padding: 0.5em 1em;
+}
+
+
+/* Desktop Viewport: Style rules for main content */
+main{
+    clear: left;
+}
+
+main h1{
+    font-size: 1.8em;
+}
+
+#weights, #cardio, #training {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#exercises{
+    clear: left;
+}
+
+/* Media Query for Large Desktop Viewports */
+@media screen and (min-width: 1921px) {
+
+}
+
+#container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+/* Media Query for Print*/
+@media print {
+
+    body{
+        background-color: #fff;
+        color: #000;
+    }
+
+}

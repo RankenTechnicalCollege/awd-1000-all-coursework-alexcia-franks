@@ -1,0 +1,106 @@
+/*  
+    Student Name: Alexcia Franks
+    File Name:: HOT 2
+    Date:: 9/15/2026
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* Style rules for Global section */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F4F4F4;
+}
+
+/* Style rules for Header section */
+header{
+    text-align: center;
+    font-style: italic;
+    background-color: #0A2342;
+    color: white;
+}
+
+/* Style rules for navigation section */
+.navbar{
+    display: float;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: x-large;
+}
+.navbar a{
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    gap: 80px;
+}
+.navbar{
+    background-color:#0A2342;
+}
+.navbar a:hover{
+    color: gray;
+}
+nav li{
+    display: inline-block
+
+}
+.img{
+    max-width:100%;
+    max-height: auto;
+    border-radius: 8px;
+
+}
+nav ul{
+    list-style-type: none;
+    
+    
+    
+}
+nav a{
+    text-decoration: none;
+
+}
+
+/* Style rule for images */
+.about2{ 
+    width: 100%
+    height:auto;
+    border-radius: 8px;
+}
+.img{
+    max-width:100%;
+    max-height: auto;
+    border-radius: 8px;
+}
+.drink{
+    float:right;
+    height: fit-content;
+    width: 350px;
+}
+/* Style rules for main content section */
+#about{
+    text-align: center;
+
+}
+.menu-item{
+    border: 15px;
+    padding: 20px;
+    margin: 15px;
+}
+.location{
+    text-decoration: underline;
+}
+
+/* Style rules for footer section */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
