@@ -1,139 +1,152 @@
-/*
-Author: Alexcia Franks
-Date: 9/3/2026
-File Name: styles.css
-*/
-
-/* CSS Reset */
-body, header, nav, main, footer, h1, h2 {
+/* Alexcia Franks
+    CSS Style sheet
+    Last Updated: 2026-09-18
+    */
+/*CSS Reset */
+* body, header,nav, main,footer,img,h1,h3{
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-/* Style rules for body and header content */
-body {
-    background-color: #d9d9d9;
+/*Style rule for body and image*/
+body{
+    background-color: #e3eaf8;
+}
+img{
+    max-width: 100%;
+    display: block;
 }
 
-header {
-    padding: 2%;
+/*Style rule for header*/
+header{
+    color: #47476b;
+    padding: 3%;
     text-align: center;
-    color: #4b3b6b;
-    font-size: 2rem;
-}
-
-/* Style rules for main content */
-main {
-    padding: 2%;
-    overflow: auto;
-    display: flex;
+    font-size: 2em;
+    font-family:'Georgia', Times, serif;
 }
 h1{
     align-content: center;
 }
-
-main p {
-    font-size: 1.25em;
-    padding: 2%;
-}
-
-main a {
-    color: #47476b;
-    text-decoration: none;
-    font-style: italic;
-    font-weight: bold;
-}
-
-
-
-#orange, #purple, #green {
-    display: block;
-    margin-bottom: 2%;
-    text-align: center;
-    width: 33%;
-    float: left;
-}
-
-#questions {
-    clear: left;
-}
-
-.box {
-    height: 100px;
-    width: 100px;
-    border: 1px solid #000;
-    display: inline-block;
-    padding-top: 5%;
-}
-#css1{
-    width: 33.33%;
-}
-#css2{
-    width: 33.33%;
-}
-#css3{
-    width: 33.33%;
-}
-/* Orange */
-.orange-hex {
-    background-color: #ffa500;
-}
-.orange-rgb {
-    background-color: rgb(255, 165, 0);
-}
-.orange-hsl {
-    background-color: hsl(39, 100%, 50%);
-}
-
-
-/* Purple */
-.purple-hex {
-    background-color: #e600e6;
-}
-.purple-rgb {
-    background-color: rgb(230, 0, 230);
-}
-.purple-hsl {
-    background-color: hsl(300, 100%, 45%);
-}
-
-
-/* Green */
-.green-hex {
-    background-color:#008000;
-}
-.green-rgb {
-    background-color: rgb(0, 128, 0);
-}
-.green-hsl {
-    background-color: hsl(120, 100%, 25%);
-}
-
-/* Style rule for nav */
+/*Style rule for navigation area*/
 nav{
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    background-color: #4b3b6b;
-    align-items: center;
+    background-color: #1d396d
+
 }
+
 nav ul{
-    display: flex;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
 }
-nav a{
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 1.1em;
-}
+
 nav li{
     display: inline-block;
+    font-size: 1.5em;
+    font-family: 'Verdana', Arial, sans-serif;
+    font-weight: bold;
+    
+    
 }
 
-/* Style for footer area */
+nav li a{
+    display: block;
+    color: #e3eaf8;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+/*Style rule for main content area*/
+main{
+    padding: 2%;
+    font-family: 'Geneva', Arial, sans-serif;
+    overflow: auto;
+    font-style: italic;
+    display: flex;
+    gap: 40px;
+    
+}
+
+main p{
+    font-size: 1.25em;
+}
+
+main h3{
+    font-size: 2em;
+    padding-top: 2%;
+}
+
+#image{
+    width: 45%;
+    float: left;
+    padding: 1%;
+}
+
+#group{
+    width: 45%;
+    float: right;
+}
+
+.external{
+    color: #1d396d;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+#css1, #css2, #css3{
+    width: 33.33%;
+}
+
+/*Style rule for footer content*/
 footer{
     text-align: center;
-    border-top: 1px solid #4b3b6b;
-    padding: 20px;
+    font-size: 0.85em;
+    border-top: 3px solid #4b3b6b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for Tablet Viewport*/
+@media screen and (min-width: 630px) {
+
 }
