@@ -1,0 +1,53 @@
+/* 
+    Student Name: Alexcia Franks
+    File Name: CH.3 HW style sheet
+    Date: 9/18/2026
+*/
+
+/* CSS Reset */
+body,header,nav,main,image,h1,footer,h2{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Page background + text color */
+body {
+    background: radial-gradient(#9999ff, #b3b3ff, #ccccff, #e6e6ff, #f2f2ff);
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style rules for Wrapper */
+#wrapper {
+    width: 80%;
+    margin: 0 auto; 
+    background: #eeccff;
+    padding: 20px;
+}
+
+/* Style rules for Header section */
+header h1 {
+    text-align: center;
+}
+
+/* Style rules for Main section */
+main img {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Style rules for Section */
+aside {
+    margin-top: 20px;
+}
+
+/*  Style rules for Footer content */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 0.5em;
+}
