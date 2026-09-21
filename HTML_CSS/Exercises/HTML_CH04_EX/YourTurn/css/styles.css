@@ -1,0 +1,68 @@
+/* 
+    Student Name: Alexcia Franks
+    File Name: Ch.4 Your turn#2
+    Date: 9/21/2026
+*/
+
+/* CSS Reset */
+body, header, nav, main, img, footer{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style rule for body area */
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Style rule for header area */
+h1{
+    font-style: italic;
+    text-align: center;
+    color: brown;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+}
+
+/* Style rule for nav area */
+nav{
+    background-color: brown;
+    font-size: 1.5em;
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+/* Style rule for main area */
+main{
+    font-size: 1.0em;
+}
+.highlights{
+    padding: 50px 20px;
+}
+.highlight-cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+.highlight{
+    background-color: rgb(205, 74, 74);
+}
+
+/* Style rule for images */
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+    clear: left;
+}
+
+
+/* Style rule for footer area */
