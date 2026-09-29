@@ -1,0 +1,54 @@
+/*  Student's Name: Alexcia Franks
+    Date:9/29/26
+    File Name: Ch.8 Extend
+*/
+
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #ffe5dc;
+    font-family: sans-serif;
+    
+}
+
+/* Style rule for main area */
+table {
+	width: 80%;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: 8px solid #fd4d0c;
+
+}
+tr {
+    box-shadow: #792101;
+}
+td {
+    border-color: #a22c02;
+}
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+}
+tr:nth-child(odd){
+    background-color: #fe9772;
+}
+table,tr,th,td {
+	padding: 2%;
+	border-collapse: collapse
+}
+
+/* Style rule for the container */
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
