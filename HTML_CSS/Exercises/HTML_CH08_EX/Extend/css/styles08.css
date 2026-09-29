@@ -25,14 +25,18 @@ table {
 	margin-bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
-	border: 8px solid #fd4d0c;
+	border: 4px solid #fd4d0c;
+    box-shadow: 10px 10px 5px #792101;
+    border-collapse: collapse;
 
 }
-tr {
-    box-shadow: #792101;
+td, th{
+	border: 2px solid #a22c02;
 }
-td {
-    border-color: #a22c02;
+th {
+    background-color: #a52a2a;
+    color: white;
+   
 }
 caption {
 	font-size: 2em;
@@ -42,13 +46,20 @@ caption {
 tr:nth-child(odd){
     background-color: #fe9772;
 }
-table,tr,th,td {
+table, tr, th, td {
 	padding: 2%;
-	border-collapse: collapse
 }
+
 
 /* Style rule for the container */
 #container {
 	width: 80%;
 	margin: 0 auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+    padding: 2%;
 }
