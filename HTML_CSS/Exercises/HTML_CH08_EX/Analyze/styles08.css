@@ -17,7 +17,13 @@ body {
 }
 
 /* Style rules for form elements */
-
+fieldset, input {
+	margin-bottom: 2%;
+}
+legend {
+	font-size: 1.25em;
+	font-weight: bold;
+}
 /* Style for the footer element */
 footer {
 	font-size: .9em;
@@ -25,20 +31,20 @@ footer {
 }
 
 /* Media query for mobile viewport */
-@media screen, and (min-width:481px){
-	fieldset, input {
-	margin-bottom: 2%;
-}
+@media screen and (min-width: 481px) {
+  fieldset,
+input {
+    margin-bottom: 2%;
+  }
+
+
 legend{
 	font-size: 1.25em;
 	font-weight: bold;
 }
 .btn {
-	text-decoration: none;
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
+	border: none;
+	margin: 0 auto;
 	display: block;
 	padding: 5%;
 	background-color: #003399;
