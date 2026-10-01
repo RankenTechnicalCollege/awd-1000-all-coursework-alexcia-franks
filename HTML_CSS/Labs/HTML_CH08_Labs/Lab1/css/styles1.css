@@ -1,29 +1,35 @@
-/* 
-    Student Name: Alexcia Franks
-    Date: 9/30/26
-    File Name: Correct CSS for Strike A Chord 
+/*
+Author: Alexcia Franks
+Date: 9/6/2026, updated 9/17/2026
+File Name: styles.css
 */
 
 /* CSS Reset*/
-body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption{ 
+body, header, nav, main, footer, img, h1, ul, section, aside, figure, figcaption { 
     margin:0;
     padding: 0;
     border: 0;
 }
 
-/* Style rule for images */
-img {
-    max-width: 100%;
-    display: block;
+/*Style rule for images*/
+.image-row img{
+    width: 33.33%;
+    display: flex;
+    object-fit: cover;
 }
 
-/* Style rule for box sizing applies to all elements */
+.image-row{
+    max-width: 100%;
+    display: flex;
+}
+
+/* Style rule for box sixing applies to all elements */
 * {
     box-sizing: border-box;
 }
 
 /*Style rule for mobile viewport*/
-aside {
+aside{
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
@@ -31,18 +37,18 @@ aside {
     text-shadow: 3px 3px 10px #8280cb;
 }
 
-figure {
+figure{
     position: relative;
     max-width: 275px;
     margin: 2% auto;
     border: 8px solid #373684;
 }
 
-figcaption {
+figcaption{
     position: absolute;
     bottom: 0;
     background: rgba(55, 54, 132, 0.7);
-    color:#fff;
+    color: #fff;
     width: 100%;
     padding: 5% 0;
     text-align: center;
@@ -54,79 +60,78 @@ figcaption {
 .tab-desk{
     display: none;
 }
-
-/* Style rules for header content */
-header {
+/*Style rules for header content*/
+header{
     text-align: center;
     font-size: 1.5em;
     color: #373684;
 }
 
-h1{
-    font-style: italic;
+header h1{
+    font-style:'DM serif display'
 }
 
-/* Style rules for navigation area */
-nav {
+/*Style rules for navigation area*/
+nav{
     background-color: #373684;
 }
 
-nav ul {
-    list-style-type: none;
+nav ul{
+    list-style-type: auto;
     text-align: center;
+    
 }
 
-nav li {
+nav li{
     display: block;
     font-size: 2em;
     border-top: 1px solid #e5e9fc;
 }
 
-nav li a {
+nav li a{
     display: block;
-    color: #fff;
+    color:#ffff;
     text-align: center;
     padding: 0.5em 1em;
-    text-decoration: none;
 }
 
-/* Style rules for main content */
-main {
+
+/*Style for main content*/
+main{
     padding: 2%;
     background-color: #e5e9fc;
     overflow: auto;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: 'Roboto'
 }
 
-main p {
+main p{
     font-size: 1.25em;
 }
 
-.action {
+.action{
     font-size: 1.25em;
     color: #373684;
     font-weight: bold;
 }
 
-#piano, #guitar, #violin {
-
+#piano, #guitar, #violin{
     margin: 0 2%;
 }
 
-#info {
+#info{
     clear: left;
     background-color: #c0caf7;
     padding: 1% 2%;
 }
 
-#info ul {
+#info ul{
     margin-left: 10%;
 }
-
-.round {
+.round{
     border-radius: 8px;
 }
-#contact .email-link {
+
+#contact .email-link{
     text-align: center;
 }
 
@@ -146,91 +151,41 @@ main p {
     display: block;
 }
 
-#contact a, #rental h2 {
-    color:#4645a8;
+#contact a{
+    color: #4645a8;
     text-decoration: none;
     font-weight: bold;
 }
 
-.map {
+.map{
     border: 5px solid #373684;
     width: 95%;
     height: 50%;
 }
 
-#map h3 {
-    text-align: center;
-}
-#map iframe {
-    display: block;
-    margin: 0 auto;
-}
-
-/* Style rules for Table */
-table {
-    border: 1px solid #373684;
-    border-collapse: collapse;
-    margin: 0 auto;
-    width: 100%;
-}
-
-caption {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding: 1%;
-}
-
-th, td {
-    border: 1px solid #373684;
-    padding: 2%;
-}
-
-th {
-    background-color: #373684;
-    color: #fff;
-    font-size: 1.15em;
-}
-
-tr:nth-child(odd) {
-    background-color: #b7b7e1;
-}
-
-/* Style rules for form elements */
-fieldset, input {
-    margin-bottom: 2%;
-}
-legend {
-    font-weight: bold;
-    font-size: 1.25em;
-}
-label {
-    display: block;
-    padding: 3%;
-}
-#submit {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    padding: 3%;
-    background-color: #b7b7e1;
-    font-size: 1em;
-}
-/* Style rules for footer content */
-footer {
+/*Style rules for footer content*/
+footer{
     text-align: center;
     font-size: 0.65em;
     clear: left;
 }
 
-footer a {
+footer a{
     color: #4645a8;
     text-decoration: none;
 }
-
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 550px), print {
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+aside{
+    display: grid;
+    grid-column: 1 / span 2;
+}
     /* Tablet Viewport: Show tab-desk class, hide mobile class */
     .tab-desk{
         display: block;
@@ -242,14 +197,12 @@ footer a {
     span.tab-desk{
         display: inline;
     }
-
-     /* Tablet Viewport: Style rule for nav area */
+    /* Tablet Viewport: Style rule for nav area */
     nav li{
         border-top: none;
         display: inline-block;
         font-size: 1.5em;
         border-right: 1px solid #e5e9fc;
-        
     }
     nav li:last-child{
         border-right: none;
@@ -265,14 +218,6 @@ footer a {
         width: 500px;
         height: 450px;
     }
-    /* Tablet Viewport: Style rule for form element */
-    form {
-        width: 70%;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 /* Media Query for Desktop Viewport */
@@ -281,7 +226,6 @@ footer a {
     header{
         padding: 2%;
     }
-    
     /* Desktop Viewport: Style rules for nav area */
     nav li a{
         padding-top: 0.5em;
@@ -289,11 +233,10 @@ footer a {
         padding-left: 1.5em;
         padding-right: 1.5em;
     }
-     nav li a:hover{
+    nav li a:hover{
         color: #373684;
         background-color: #e5e9fc;
     }
-    
     /* Desktop Viewport: Style rules for main content */
     #info ul{
         margin-left: 5%;
@@ -309,26 +252,23 @@ footer a {
         margin-left: 2%;
         margin-bottom: 2%;
     }
-    
-    /* Desktop Viewport: Style rules for table */
-    table {
-        width: 70%;
-    }
-    
-    /* Desktop Viewport: Style rules for form elements */
-    .form-grid {
+    .grid{
         display: grid;
-        grid-template-columns: auto auto;
-        gap: 20px;
+        grid-template-columns: auto auto auto auto;
     }
-    .btn {
-        grid-column: 1 / span 2;
+    figcaption{
+        font-size: 1em;
     }
-}
-    /* Media Query for Print */
+    
+    aside{
+        display: grid;
+        grid-column: 1 / span 4;
+    }
+/* Media Query for Print */
 @media screen, print{
     body{
         background-color: #fff;
-        color: #000;
+        color: #0000;
     }
+}
 }
