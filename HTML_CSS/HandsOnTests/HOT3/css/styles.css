@@ -1,0 +1,94 @@
+/*
+Author: Alexcia Franks
+Date: 10/2/2026
+File Name: HOT 3  
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for main area */
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+    padding-bottom: 2%;
+
+}
+h1,h2{
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    font-size: 1em;
+    text-align: center;
+}
+/* Style rules for navigation area */
+nav{
+    background-color: pink;
+    font-size: 1.25em;
+    border-radius: 8px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+nav li{
+    list-style-type: none;
+    
+    
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav li a:hover{
+    background-color: #333;
+}
+/* Style rules for table elements */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+caption{
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 2%;
+    font-style: italic;
+}
+th, td {
+  border: 1px solid #333;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: black;
+  color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: pink
+}
+
+/* Style rules for form elements */
+label{
+    font-size: 1em;
+}
+.btn{
+    background-color: lightpink;
+    border-radius: 4px;
+}
+legend{
+    font-weight: bold;
+}
