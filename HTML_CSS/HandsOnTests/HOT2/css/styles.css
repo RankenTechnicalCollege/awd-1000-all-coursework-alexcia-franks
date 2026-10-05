@@ -20,6 +20,7 @@ body{
 
 /* Style rules for Header section */
 header{
+    position: relative;
     text-align: center;
     font-style: italic;
     background-color: #0A2342;
@@ -75,7 +76,7 @@ nav a{
 }
 /* Style rule for images */
 .about2{ 
-    width: 100%
+    width: 100%;
     height:auto;
     border-radius: 8px;
 }
@@ -88,6 +89,16 @@ nav a{
     float:right;
     height: fit-content;
     width: 350px;
+}
+
+header img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-width: 100px;
+    width: auto;
+    object-fit: contain;
 }
 /* Style rules for main content section */
 #about{

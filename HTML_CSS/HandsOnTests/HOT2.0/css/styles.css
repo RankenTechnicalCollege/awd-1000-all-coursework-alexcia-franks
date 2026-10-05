@@ -1,0 +1,112 @@
+/* Global Styles */
+body, header, nav, main, footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4F4F4;
+}
+
+/* Header Styles */
+header {
+    background-color: #0A2342;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header img{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 174px;
+    max-width: 220px;
+    width: auto;
+    object-fit: contain;
+    transform: translateY(-50%);
+}
+.navbar {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #cccccc;
+}
+
+/* Hero Styles */
+#hero {
+    background-image: url("../images/exterior.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+/* About Section */
+.about-img {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Menu Section */
+.menu-item {
+    border: 15px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+}
+
+.menu-item span {
+    color: brown;
+    font-weight: bold;
+}
+
+/* Location Section */
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style rules for main section */
+h3{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0A2342;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
