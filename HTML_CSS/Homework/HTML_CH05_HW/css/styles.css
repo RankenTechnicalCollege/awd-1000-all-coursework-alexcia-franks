@@ -14,6 +14,7 @@ body, header, nav, main, footer, img, h1, ul{
 
 /*Style rule for images*/
 .row img{
+    width: 45%;
     max-width: 100%;
     height: auto;
 }
@@ -189,11 +190,15 @@ main ul{
     height: 50%;
 }
 
+
+
 /*Style rules for footer content*/
 footer{
     text-align: center;
-    font-size: 0.65em;
+    font-size: 1em;
     clear: left;
+    padding-top: 2%;
+    background-color:  rgb(255, 192, 203);
 }
 
 footer a{
