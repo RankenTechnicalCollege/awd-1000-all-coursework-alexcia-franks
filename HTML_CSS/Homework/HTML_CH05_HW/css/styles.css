@@ -14,9 +14,8 @@ body, header, nav, main, footer, img, h1, ul{
 
 /*Style rule for images*/
 .row img{
-    flex: 1;
-    height: 300px;
-    object-fit: cover;
+    max-width: 100%;
+    height: auto;
 }
 
 .row{
@@ -73,7 +72,7 @@ nav{
 }
 
 nav ul{
-    list-style-type: auto;
+    list-style-type: none;
     text-align: center;
     
 }
