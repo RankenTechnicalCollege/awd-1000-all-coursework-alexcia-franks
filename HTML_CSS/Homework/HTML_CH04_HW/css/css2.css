@@ -56,7 +56,7 @@ main ul li {
 }
 
 /* Child selector */
-nav ul {
+nav > ul {
     background-color: #b37400;
     list-style-type: square;
 }
@@ -94,7 +94,7 @@ a:focus {
 
 /* External CSS default for h1 (will be overridden by embedded + inline) */
 .override-text {
-    color: blue;
+    color: rgb(77, 50, 0)
 }
 
 footer {
