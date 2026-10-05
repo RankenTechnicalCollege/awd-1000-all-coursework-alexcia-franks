@@ -1,0 +1,113 @@
+/*
+Student Name: Alexcia Franks
+File Name: Chapter 4 Homework
+Date: 9/8/26
+*/
+
+/* Inline element example (span) */
+/* Block element example (div) */
+
+/* Wrapper centered */
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+/* Gradient background on body */
+body {
+    background: linear-gradient(to bottom, #fff6e6, #ffa500);
+}
+
+/* Gradient background on header */
+header {
+    background: linear-gradient(to right, rgba(255,165,0,0.8), rgba(179,116,0,0.8));
+    padding: 20px; /* absolute measurement */
+}
+
+/* Heading border requirement */
+h1, h2 {
+    border: 10px dashed #b37400;
+}
+
+/* Keep each dish image beside its list text */
+.food-list li {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.food-list img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+}
+
+/* Text shadow */
+h1 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+/* Descendant selector */
+main ul li {
+    color: #fff6e6;
+}
+
+/* Child selector */
+nav ul {
+    background-color: #b37400;
+    list-style-type: square;
+}
+
+/* Multiple selectors */
+p, li {
+    font-family: Arial, sans-serif;
+}
+
+/* Shorthand font property */
+.intro {
+    font: italic bold 1.2em/1.5 Arial;
+}
+
+/* Custom height & width */
+p {
+    width: 90%;
+    min-height: 50px;
+}
+
+/* Padding & margin on 5+ elements */
+header, nav, main, footer, p {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Pseudo-class selectors */
+a:hover {
+    color: #ffa500;
+}
+
+a:focus {
+    outline: 2px solid #ffa500;
+}
+
+/* External CSS default for h1 (will be overridden by embedded + inline) */
+.override-text {
+    color: blue;
+}
+
+footer {
+    background-color: #7a4300;
+    color: #fff6e6;
+    text-align: center;
+    padding: 1em;
+}
+
+footer p {
+    width: auto;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 0.75em;
+}

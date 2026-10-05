@@ -25,7 +25,9 @@ header{
     background-color: #0A2342;
     color: white;
 }
-
+#hero{
+    text-align: center;
+}
 /* Style rules for navigation section */
 .navbar{
     display: float;
@@ -39,7 +41,7 @@ header{
     text-decoration: none;
     font-weight: 600;
     color: white;
-    gap: 80px;
+    
 }
 .navbar{
     background-color:#0A2342;
@@ -59,15 +61,18 @@ nav li{
 }
 nav ul{
     list-style-type: none;
-    
-    
-    
+    margin: 0;
 }
 nav a{
     text-decoration: none;
 
 }
-
+.about-img{
+    float: left;
+    width: 300px;
+    margin-right: 1.5em;
+    border-radius: 10px;
+}
 /* Style rule for images */
 .about2{ 
     width: 100%
@@ -90,17 +95,35 @@ nav a{
 
 }
 .menu-item{
-    border: 15px;
     padding: 20px;
     margin: 15px;
+    border: 15px solid black;
 }
 .location{
-    text-decoration: underline;
+    text-decoration: none;
+}
+.location h4{
+    text-align: center;
 }
 
+.price{
+    font-weight: bold;
+}
+.menu-item,h4{
+    text-align: center;
+}
+.menu-preview h3,p{
+    text-align: center;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
 /* Style rules for footer section */
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    clear: both;
 }

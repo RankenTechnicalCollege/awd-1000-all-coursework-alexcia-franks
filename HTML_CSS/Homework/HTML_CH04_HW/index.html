@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<!--This website template was created by: Alexcia Franks-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Embedded CSS (cascade requirement) -->
+    <style>
+        /* Embedded CSS overrides external CSS */
+        .override-text {
+            color: red;
+        }
+    </style>
+
+    <!-- Normalize.css requirement -->
     <link rel="stylesheet" href="css/normalize.css">
-    <title>Document</title>
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="css/css2.css">
+
+    <title>Favorite Hobby</title>
 </head>
+
 <body>
+
+<div id="wrapper">
+
+    <header>
+        <!-- Inline CSS (cascade requirement) -->
+        <h1 class="override-text" style="font-size: 2.5em;">Favorite Hobby</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Recipes</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Cooking: The Knot So Easy Way!</h2>
+
+        <p class="intro">
+            I love trying new meals and testing the limits of my home based culinary degree!
+        </p>
+
+        <p class="list-intro">
+            Some of the dishes I have prepared are but not limited to:
+        </p>
+
+        <ul class="food-list">
+            <li><img src="images/oxtail.jpg" alt="Oxtails with rice and peas">Oxtails with rice & peas</li>
+            <li><img src="images/egusi.jpg" alt="Fufu with Egusi soup">Fufu with Egusi Soup</li>
+            <li><img src="images/korean-chicken.jpg" alt="Korean fried chicken">Korean Fried Chicken</li>
+            <li><img src="images/mac.jpg" alt="Macaroni and cheese">Macaroni & Cheese</li>
+        </ul>
+
+       
+    </main>
+
+    <footer>
+        <p>&copy;All rights reserved. 2026 Cooking Adventures.</p>
+    </footer>
+
+</div>
+
 </body>
 </html>
