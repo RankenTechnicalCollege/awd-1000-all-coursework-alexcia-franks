@@ -2,9 +2,28 @@ WEBVTT
 
 NOTE
 Descriptions for the Responsive Web Design Video
-Student Name:
+Student Name: Alexcia Franks
 File Name: descriptions.vtt
-Date: 
+Date: 10/6/2026
+
+NOTE
+This is the descriptions file for the Responsive Web Design Video
 
 1
-00:00.000 --> 00:28.000
+00:00:00.000 --> 00:00:10.000
+Shows a drawing of a desktop, tablet, and mobile device.
+
+2
+00:00:10.000 --> 00:00:15.000
+Writes desktop, tablet, and mobile under each drawing.
+
+3
+00:00:15.000 --> 00:00:20.000
+Shows how each viewport(desktop, tablet, and mobile) allows multiple columns to be shown
+
+4
+00:00:20.000 --> 00:00:25.000
+Shows to use a single column for mobile viewport
+5
+00:00:25.000 --> 00:00:30.000
+The screen does not changed it shows all 3 viewports next to each other with the number of columns shown below it.
