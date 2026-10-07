@@ -1,0 +1,248 @@
+
+
+
+
+
+
+/* CSS Reset Rules */
+body, header, nav, main, footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header layout */
+header {
+  position: relative;
+  text-align: center;
+}
+
+/* Hero image fills the screen */
+.hero-img {
+  width: 100%;
+  height: 100vh;         
+  object-fit: cover;     
+  display: block;
+}
+
+/* Navigation styling */
+nav {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Hero text section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to bottom, #b85c00, #ff9900);
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  background-color: white;
+  color: #b85c00;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-button:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+/* Style rule for main area */
+main{
+    font-size: 1.0em;
+    color: black;
+
+}
+main p{
+    align-self: center;
+}
+.highlights{
+    padding: 50px 20px;
+}
+.highlight-cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+.highlight{
+    background-color: rgb(205, 74, 74);
+    border-radius: 8px;
+}
+.highlight h3{
+    text-align: center;
+}
+.cta{
+    text-align: center;
+}
+.map{
+    clear: left;
+    border-radius: 8px;
+    padding-top: 4%;
+}
+.map iframe{
+    align-content: center;
+}
+.about-columns{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+}
+.about-text{
+    flex: 1;
+    text-align: left;
+}
+.about-images img {
+  width: 350px;      
+  height: 350px;      
+  object-fit: cover;  
+  border-radius: 10px;
+}
+
+.about-button{
+    color:#b85c00;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+}
+
+.about-button:hover {
+  background-color: #ff9900;  
+}
+
+/* Service section layout */
+.services-section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #b85c00;
+}
+
+.services-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* Service card layout */
+.service-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.service-card img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.service-card ul {
+  list-style: disc;
+  padding-left: 1rem;
+}
+
+/* Style rule for images */
+header img{
+    max-width: 100%;
+    display: block;
+    
+    clear: both;
+}
+
+
+/* Style rule for footer area */
+footer{
+    padding-top: 4%;
+    font-size: 0.75em;
+
+}
+
+
+
+/* Tablet Viewport */
+@media screen and (min-width:481px), print{
+body{
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+}
+
+
+/* Desktop Viewport */
+@media screen and (min-width:769px), print{
+body{
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+}
+
+/* Large desktop Viewport */
+@media screen and (min-width:1280px), print{
+body{
+    margin: auto;
+    padding: 3rem;
+    font-size: 1.3rem;
+}
+}
+
+
+/* Print Viewport */
+@media print{
+body{
+    font-size: 12pt;
+}
+}

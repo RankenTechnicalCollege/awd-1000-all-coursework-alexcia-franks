@@ -1,0 +1,124 @@
+/* 
+    Student Name: Alexcia Franks
+    File Name: Ch.4 Your turn#2
+    Date: 9/21/2026
+*/
+
+/* CSS Reset */
+body, header, nav, main, img, footer{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style rule for body area */
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right, #ff9900 28%, #cc6600 48%);
+    margin: 0;
+    padding: 0;
+}
+
+/* Style rule for header area */
+h1, h2{
+    font-style: italic;
+    text-align: center;
+    color: wheat
+}
+
+/* Style rule for nav area */
+nav{
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 8px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    text-decoration: underline;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    
+}
+/* Style rule for main area */
+main{
+    font-size: 1.0em;
+    color: black;
+
+}
+main p{
+    align-self: center;
+}
+.highlights{
+    padding: 50px 20px;
+}
+.highlight-cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+.highlight{
+    background-color: rgb(205, 74, 74);
+}
+.map{
+    clear: left;
+}
+.about-columns{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+}
+.about-text{
+    flex: 1;
+    text-align: left;
+}
+
+/* Style rule for images */
+header img{
+    max-width: 100%;
+    display: block;
+    
+    clear: both;
+}
+
+
+/* Style rule for footer area */
+
+
+/* Tablet Viewport */
+@media screen and (min-width:481px), print{
+body{
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+
+/* Desktop Viewport */
+@media screen and (min-width:769px), print{
+body{
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+/* Large desktop Viewport */
+@media screen and (min-width:1280px), print{
+body{
+    margin: auto;
+    padding: 3rem;
+    font-size: 1.3rem;
+}
+
+
+/* Print Viewport */
+@media print{
+body{
+    font-size: 12pt;
+}
+}
