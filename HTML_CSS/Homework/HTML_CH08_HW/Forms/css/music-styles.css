@@ -1,0 +1,135 @@
+/*
+    Student Name: Alexcia Franks
+    File Name: Ch.8 HW Forms
+    Date: 10/8/2026
+*/
+
+/* CSS Reset Rules */
+* {
+    box-sizing: border-box;
+}
+
+body, header, main, footer, form, fieldset, legend, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+}
+
+main h1 {
+    color: #2e8b57; 
+    font-size: 1.8rem;
+    text-align: center;
+}
+/* Main Layout */
+main {
+    width: min(90%, 900px);
+    margin: 2rem auto;
+}
+
+#survey {
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+}
+
+/* Form Grid */
+.form-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    font: inherit;
+}
+
+input[type="text"],
+textarea {
+    padding: 0.75rem;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: 2px solid #4a90e2;
+    border-color: #4a90e2;
+}
+
+/* Fieldsets */
+fieldset {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+   
+    
+}
+
+legend {
+    padding: 0 0.5rem;
+    font-weight: bold;
+}
+
+fieldset label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem ;
+    
+}
+
+fieldset input[type="radio"],
+fieldset input[type="checkbox"] {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+/* button rules */
+
+.btn[type="submit"] {
+    background-color: #2e8b57;
+}
+
+.btn{
+    border-radius: 8px;
+    padding: 2.25%;
+    gap: 2rem;
+}
+.btn[type="submit"]:hover {
+    background-color: #256b45;
+}
+
+.btn[type="reset"] {
+    background-color: #e74c3c; 
+}
+
+.btn[type="reset"]:hover {
+    background-color: #c0392b;
+}
+
+
+
+
