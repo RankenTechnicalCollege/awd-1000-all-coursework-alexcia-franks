@@ -1,0 +1,53 @@
+/*
+
+
+
+*/
+
+/* CSS Reset Rules */
+body, header, nav, main,
+
+
+caption{
+    font-size: 0.75em;
+}
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 2px solid black;
+}
+th,td {
+    padding: 3px 8px ;
+}
+th{
+    text-align: left;
+}
+.years{
+    text-align: right;
+    padding-right: 2%;
+}
+.service{
+    padding-right: 2%;
+    text-align: right;
+}
+td{
+    margin: auto;
+}
+td[rowspan] {
+    background-color: white;
+    vertical-align: top;
+}
+tfoot th{
+    text-align: right;
+}
+tr:nth-child(odd){
+    background-color: yellow;
+}
+.name{
+    text-align: left;
+}
+.email{
+    text-align: left;
+}

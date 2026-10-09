@@ -1,0 +1,45 @@
+/* 
+    Student Name: Alexcia Franks
+    File Name: CH.8 HW Tables
+    Date: 10/8/2026
+*/
+
+/* CSS Reset Rules */
+body, header, nav, main, footer, table{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+header{
+
+}
+caption{
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    text-align: left;
+}
+th{
+    justify-content: left;
+}
+
+
+td:nth-child(3), th:nth-child(3){
+    text-align: right;
+}
+table, th, td{
+    border: 1px solid black;
+}
+
+tr:nth-child(odd){
+    background-color: yellow;
+}

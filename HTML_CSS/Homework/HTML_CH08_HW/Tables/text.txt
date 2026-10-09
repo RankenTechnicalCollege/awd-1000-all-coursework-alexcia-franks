@@ -1,0 +1,24 @@
+/* 
+    Student Name: Alexcia Franks
+    File Name: CH.8 HW Tables
+    Date: 10/8/2026
+*/
+
+/* CSS Reset Rules */
+body, header, nav, main, footer, table{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+header{
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
