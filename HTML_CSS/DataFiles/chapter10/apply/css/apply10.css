@@ -1,7 +1,7 @@
 /*
-    Student Name
-	File Name: 
-	Current Date: 
+    Student Name: Alexcia Franks
+	File Name: Ch. 10 Apply 
+	Current Date: 10/21/2026
 */
 
 /* CSS reset */
@@ -54,8 +54,24 @@ button {
     height: 200px;
     background-color: #33091b;
     margin-left: 6%;
-}
+	-webkit-animation-name: moveSquare;
+	animation-name: moveSquare;
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
 
+}
+.square:hover {
+	transform: translate(80px);
+}
+/* Animation */
+@-webkit-keyframes color {
+	from { background-color: #fbdae9;}
+	to { background-color: #660b32;}
+}
+@keyframes color {
+	from { background-color: #fbdae9;}
+	to { background-color: #660b32;}
+}
 /* Style rules for the footer */
 footer {
 	font-size: .90em;
