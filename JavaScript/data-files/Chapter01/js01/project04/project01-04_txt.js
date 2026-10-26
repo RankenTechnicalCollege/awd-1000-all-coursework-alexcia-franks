@@ -2,8 +2,8 @@
     Chapter 1
     Hands-On Project 1-4
 
-    Author: 
-    Date:   
+    Author: Alexcia Franks
+    Date:   10/23/2026
 
     Filename: project01-04.js
 */
