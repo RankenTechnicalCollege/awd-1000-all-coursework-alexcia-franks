@@ -3,8 +3,8 @@
       Project 02-05
 
       Application to create an online calculator
-      Author: 
-      Date:   
+      Author: Alexcia Franks
+      Date:   11/6/2026
 
       Filename: project02-05.js
  */
