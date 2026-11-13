@@ -3,8 +3,8 @@
       Project 03-02
 
       Application to generate a slide gallery
-      Author: 
-      Date:   
+      Author: Alexcia Franks
+      Date:   11/11/2026
 
       Filename: project03-02.js
 */

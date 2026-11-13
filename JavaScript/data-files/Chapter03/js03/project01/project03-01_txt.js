@@ -3,8 +3,8 @@
       Project 03-01
 
       Application to calculate total order cost
-      Author: 
-      Date:   
+      Author: Alexcia Franks
+      Date:   11/11/2026
 
       Filename: project03-01.js
 */

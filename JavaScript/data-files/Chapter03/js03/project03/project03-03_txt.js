@@ -3,8 +3,8 @@
       Project 03-03
 
       Application to generate a movie list
-      Author: 
-      Date:   
+      Author: Alexcia Franks
+      Date:   11/11/2026
 
       Filename: project03-03.js
 */
