@@ -3,8 +3,8 @@
       Project 04-05
 
       Degrees <-> Radians Coverter
-      Author: 
-      Date:   
+      Author: Alexcia Franks
+      Date:   11/17/2026
 
       Filename: project04-05.js
  */

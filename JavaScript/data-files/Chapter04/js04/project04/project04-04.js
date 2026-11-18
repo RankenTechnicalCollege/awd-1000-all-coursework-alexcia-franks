@@ -41,14 +41,18 @@ function runTheRegister() {
    
    changeBox.value = formatCurrency(changeValue); // format the change as currency
    
-   calcChange(changeValue); // Determine the units of currency needed for the change
-
    // Try, catch statement to handle errors in the cash register
    try {
-      calcChange(changeValue < 0);
+      if (!(changeValue >= 0)) {
+         throw new Error("Cash amount doesn’t cover the bill");
+      }
+      calcChange(changeValue); // Determine the units of currency needed for the change
    } catch (error) {
-      
+      document.getElementById("warning").innerHTML = error.message;
    }
+   // Run commands
+   changeBox.value = formatCurrency(changeValue);
+   calcChage(changeValue);
 }
 
 // Function to calculate the change by each unit of currency
