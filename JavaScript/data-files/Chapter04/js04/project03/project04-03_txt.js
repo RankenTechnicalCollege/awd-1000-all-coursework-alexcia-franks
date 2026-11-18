@@ -3,8 +3,8 @@
       Project 04-03
 
       Application to count the number of characters in a review comment
-      Author: 
-      Date:   
+      Author: Alexcia Franks
+      Date:   11/17/2026
 
       Filename: project04-03.js
 */

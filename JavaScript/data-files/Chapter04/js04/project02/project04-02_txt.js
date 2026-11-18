@@ -3,8 +3,8 @@
       Project 04-02
 
       Application to display a random Jane Austen Quote
-      Author: 
-      Date:   
+      Author: Alexcia Franks
+      Date: 11/16/2026   
 
       Filename: project04-02.js
 */
