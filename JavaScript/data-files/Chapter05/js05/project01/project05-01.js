@@ -12,62 +12,47 @@
 
 // Constants to set the time given for the quiz in seconds
 // and the correct answers to each quiz question
-const quizTime = 20;
+const quizTime = 90;
 const correctAnswers = ["10", "4", "-6", "5", "-7"];
 
-let timeID = ""  // Variable to hold the ID for the timed commands
-
 // Elements in the quiz page
-let startQuiz = document.getElementById("startQuiz");
-startQuiz.onclick = function() {
-   overlay.className = "hidequiz";
-   timeID = setInterval(countdown, 1000);
-};
-// countdown function to update quiz clock
-countdown = function() {
-   if (quizTime === 0) {
-      clearInterval(timeID);
-   }
-   let totalCorrect = checkAnswers();
-
-   if (totalCorrect === correctAnswers.length) {
-      alert("Congratulations! You answered all the questions correctly.");
-   } else {
-        if (totalCorrect < correctAnswers.length) {
-      alert("You answered " + totalCorrect + " out of " + correctAnswers.length + " questions correctly.");
-   }
-   if (timeLeft !== 0) {
-      timeLeft - 1;
-   }
-}
-let quizClock = document.getElementById("quizclock");
-let overlay = document.getElementById("overlay");
+const startQuiz = document.getElementById("startquiz");
+const quizClock = document.getElementById("quizclock");
+const overlay = document.getElementById("overlay");
+const questionList = document.querySelectorAll("div#quiz input");
+let timeLeft = quizTime;
+let timeID;
 
 // Initialize the quiz time
 quizClock.value = timeLeft;
-let timeLeft = quizTime;
 
-// Declare the ID for timed commands
-// and the node list for questions
-const questionList = document.querySelectorAll("div#quiz input");
+startQuiz.addEventListener("click", function() {
+   clearInterval(timeID);
+   timeLeft = quizTime;
+   quizClock.value = timeLeft;
+   questionList.forEach(function(question) {
+      question.value = "";
+      question.className = "";
+   });
+   overlay.className = "showquiz";
+   timeID = setInterval(countdown, 1000);
+});
 
+function countdown() {
+   timeLeft--;
+   quizClock.value = timeLeft;
 
+   if (timeLeft === 0) {
+      clearInterval(timeID);
+      const totalCorrect = checkAnswers();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      if (totalCorrect === correctAnswers.length) {
+         alert("Congratulations! You answered all the questions correctly.");
+      } else {
+         alert("You answered " + totalCorrect + " out of " + correctAnswers.length + " questions correctly.");
+      }
+   }
+}
 
 /*------------- Function to check the student answers ----------------*/
 function checkAnswers() {
